@@ -8,10 +8,6 @@ let count = 0;
 addButton.addEventListener("click", () => {
   count += 1;
   countNumber.innerHTML = count;
-  if (starArea.classList.item(1) === "hide") {
-    starArea.classList.remove("hide");
-    starArea.classList.add("show");
-  }
   for (let i = count; i === count; i++) {
     const newStar = document.createElement("span");
     newStar.className = "fa fa-star checked fa-lg";
@@ -26,8 +22,4 @@ removeButton.addEventListener("click", () => {
     lastStar.remove();
   }
   countNumber.innerHTML = count;
-  if (starArea.classList.item(1) === "show" && count === 0) {
-    starArea.classList.remove("show");
-    starArea.classList.add("hide");
-  }
 });

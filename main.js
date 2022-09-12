@@ -1,7 +1,6 @@
 let removeButton = document.querySelector("#removeButton");
 let addButton = document.querySelector("#addButton");
 let countNumber = document.querySelector("#countNumber");
-let starArea = document.querySelector(".starArea");
 let starContainer = document.querySelector("#starContainer");
 let count = 0;
 
